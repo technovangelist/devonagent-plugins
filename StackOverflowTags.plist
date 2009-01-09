@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Stack Overflow Tag Search</string>
+	<key>EngineNextURL</key>
+	<string>http://stackoverflow.com/questions/tagged?tagnames=_agentQuery_&amp;page=_agentOffset_&amp;sort=newest&amp;pagesize=_agentNumber_</string>
+	<key>EngineUrl</key>
+	<string>http://stackoverflow.com/questions/tagged/_agentQuery_</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.stackoverflow.tags.plugin</string>
+	<key>Info</key>
+	<string>Stack Overflow Tags Plugin ©2009 Stateful Labs</string>
+	<key>LinksMatching</key>
+	<array>
+		<string>*/questions/*</string>
+	</array>
+	<key>LinksNotMatching</key>
+	<array>
+		<string>*/questions/tagged/*</string>
+	</array>
+	<key>Name</key>
+	<string>Stack Overflow (Tags)</string>
+	<key>Operators</key>
+	<integer>32827</integer>
+	<key>ResultsPerPage</key>
+	<integer>50</integer>
+	<key>Start</key>
+	<string>1</string>
+	<key>TextEnd</key>
+	<string>&lt;div id=&quot;sidebar&quot;&gt;</string>
+	<key>TextStart</key>
+	<string>&lt;div id=&quot;question&quot;&gt;</string>
+	<key>TitleEnd</key>
+	<string>&lt;/title&gt;</string>
+	<key>TitleStart</key>
+	<string>&lt;title&gt; </string>
+	<key>Version</key>
+	<string>1.0</string>
+</dict>
+</plist>
