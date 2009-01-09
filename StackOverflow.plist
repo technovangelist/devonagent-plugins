@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NoTopics</key>
+	<array>
+		<string>Revision</string>
+		<string>Report</string>
+		<string>Svn</string>
+		<string>Podcast</string>
+		<string>Blog</string>
+		<string>Faq</string>
+		<string>Bug</string>
+		<string>Feed</string>
+		<string>Votes</string>
+		<string>Badges</string>
+	</array>
+	<key>Description</key>
+	<string>Searches Stack Overflow</string>
+	<key>EngineNextURL</key>
+	<string>http://stackoverflow.com/search?q=_agentQuery_&amp;page=_agentOffset_&amp;sort=relevance</string>
+	<key>EngineUrl</key>
+	<string>http://stackoverflow.com/search?q=_agentQuery_</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.stackoverflow.plugin</string>
+	<key>Info</key>
+	<string>Stack Overflow Plugin ©2009 Stateful Labs</string>
+	<key>LinksStart</key>
+	<string>Search Results</string>
+	<key>LinksMatching</key>
+	<array>
+		<string>*/questions/*</string>
+	</array>
+	<key>LinksNotMatching</key>
+	<array>
+		<string>*/questions/tagged/*</string>
+	</array>
+	<key>Name</key>
+	<string>Stack Overflow</string>
+	<key>Operators</key>
+	<integer>32827</integer>
+	<key>ResultsPerPage</key>
+	<integer>50</integer>
+	<key>Start</key>
+	<string>1</string>
+	<key>TextEnd</key>
+	<string>&lt;/div&gt;
+&lt;div class=&quot;roundbotfff&quot;&gt;</string>
+	<key>TextStart</key>
+	<string>&lt;div class=&quot;summary&quot;&gt;</string>
+	<key>TitleEnd</key>
+	<string> - Stack Overflow&lt;/title&gt;</string>
+	<key>TitleStart</key>
+	<string>&lt;title&gt; </string>
+	<key>Version</key>
+	<string>1.0</string>
+</dict>
+</plist>
