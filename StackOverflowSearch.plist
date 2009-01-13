@@ -2,16 +2,32 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Description</key>
-	<string>Stack Overflow Search</string>
-	<key>EngineNextURL</key>
-	<string>http://stackoverflow.com/search?q=_agentQuery_&amp;page=_agentOffset_&amp;sort=relevance</string>
-	<key>EngineUrl</key>
-	<string>http://stackoverflow.com/search?q=_agentQuery_</string>
-	<key>Identifier</key>
-	<string>net.stateful.devonagent.stackoverflow.plugin</string>
+	<key>Name</key>
+	<string>Stack Overflow (Search)</string>
 	<key>Info</key>
 	<string>Stack Overflow Search Plugin ©2009 Stateful Labs</string>
+	<key>Description</key>
+	<string>Stack Overflow Search</string>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.stackoverflow.plugin</string>
+	<key>EngineUrl</key>
+	<string>http://stackoverflow.com/search?q=_agentQuery_</string>
+	<key>EngineNextURL</key>
+	<string>http://stackoverflow.com/search?q=_agentQuery_&amp;page=_agentOffset_&amp;sort=relevance</string>
+	<key>EncodingUrl</key>
+	<string>UTF-8</string>
+	<key>NoTopics</key>
+	<array>
+		<string>Votes</string>
+		<string>Asked</string>
+		<string>Oldest</string>
+		<string>Answered</string>
+		<string>Offensive</string>
+		<string>Answers</string>
+		<string>Edited</string>
+	</array>
 	<key>LinksMatching</key>
 	<array>
 		<string>*/questions/*</string>
@@ -19,24 +35,33 @@
 	<key>LinksNotMatching</key>
 	<array>
 		<string>*/questions/tagged/*</string>
+		<string>*/users/*</string>
 	</array>
-	<key>Name</key>
-	<string>Stack Overflow (Search)</string>
 	<key>Operators</key>
-	<integer>32827</integer>
+	<integer>0</integer>
+	<key>OffsetPerPage</key>
+	<integer>50</integer>
 	<key>ResultsPerPage</key>
 	<integer>50</integer>
 	<key>Start</key>
-	<string>1</string>
-	<key>TextEnd</key>
-	<string>&lt;div id=&quot;sidebar&quot;&gt;</string>
-	<key>TextStart</key>
-	<string>&lt;div id=&quot;question&quot;&gt;</string>
+	<integer>1</integer>
+	<key>TitleStart</key>
+	<string>&lt;title&gt;</string>
 	<key>TitleEnd</key>
 	<string>&lt;/title&gt;</string>
-	<key>TitleStart</key>
-	<string>&lt;title&gt; </string>
-	<key>Version</key>
-	<string>1.0</string>
+	<key>TextStart</key>
+	<string>&lt;div class=&quot;post-text&quot;&gt;</string>
+	<key>TextEnd</key>
+	<string>&lt;h2&gt;Your Answer:&lt;/h2&gt;</string>
+	<key>LinksStart</key>
+	<string>&lt;div class=&quot;post-text&quot;&gt;</string>
+	<key>LinksEnd</key>
+	<string>&lt;div class=&quot;post-menu&quot;&gt;</string>
+	<!-- <key>TextStart</key>
+	<string>&lt;div id=&quot;subheader&quot;&gt;</string>
+	<key>TextEnd</key>
+	<string>&lt;div id=&quot;sidebar&quot;&gt;</string> -->
+	<!-- <key>Keyword</key>
+	<string>so</string> -->
 </dict>
 </plist>
