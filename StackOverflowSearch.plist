@@ -14,7 +14,7 @@
 	<string>net.stateful.devonagent.stackoverflow.plugin</string>
 	<key>EngineUrl</key>
 	<string>http://stackoverflow.com/search?q=_agentQuery_</string>
-	<key>EngineNextURL</key>
+	<key>EngineNextUrl</key>
 	<string>http://stackoverflow.com/search?q=_agentQuery_&amp;page=_agentOffset_&amp;sort=relevance</string>
 	<key>EncodingUrl</key>
 	<string>UTF-8</string>
@@ -34,7 +34,8 @@
 	</array>
 	<key>LinksNotMatching</key>
 	<array>
-		<string>*/questions/tagged/*</string>
+		<string>*/questions/tagged*</string>
+		<string>*/questions/ask</string>
 		<string>*/users/*</string>
 	</array>
 	<key>Operators</key>
@@ -57,10 +58,6 @@
 	<string>&lt;div class=&quot;post-text&quot;&gt;</string>
 	<key>LinksEnd</key>
 	<string>&lt;div class=&quot;post-menu&quot;&gt;</string>
-	<!-- <key>TextStart</key>
-	<string>&lt;div id=&quot;subheader&quot;&gt;</string>
-	<key>TextEnd</key>
-	<string>&lt;div id=&quot;sidebar&quot;&gt;</string> -->
 	<!-- <key>Keyword</key>
 	<string>so</string> -->
 </dict>
