@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>OpenRadar</string>
+	<key>Info</key>
+	<string>OpenRadar Plugin ©2009 Stateful Labs</string>
+	<key>Description</key>
+	<string>Searches full-disclosure, community Apple bug reports at OpenRadar.</string>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.openradar.plugin</string>
+	<key>EngineUrl</key>
+	<string>http://openradar.appspot.com/search?query=_agentQuery_</string>
+	<key>EncodingUrl</key>
+	<string>UTF-8</string>
+	<key>Operators</key>
+	<integer>0</integer>
+	<key>Start</key>
+	<integer>1</integer>
+	<key>TitleStart</key>
+	<string>&lt;title&gt;</string>
+	<key>TitleEnd</key>
+	<string>&lt;/title&gt;</string>
+	<key>TextStart</key>
+	<string>&lt;div id=&quot;content&quot;&gt;</string>
+	<key>TextEnd</key>
+	<string>&lt;h2&gt;Comments&lt;/h2&gt;</string>
+	<key>LinksStart</key>
+	<string>&lt;th&gt;Title&lt;/th&gt;&lt;/tr&gt;</string>
+	<key>LinksEnd</key>
+	<string>Didn't find what you wanted?</string>
+	<!-- <key>Keyword</key>
+	<string>so</string> -->
+</dict>
+</plist>
