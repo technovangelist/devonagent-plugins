@@ -32,7 +32,7 @@
 	<string>&lt;th&gt;Title&lt;/th&gt;&lt;/tr&gt;</string>
 	<key>LinksEnd</key>
 	<string>Didn't find what you wanted?</string>
-	<!-- <key>Keyword</key>
-	<string>so</string> -->
+	<key>Keyword</key>
+	<string>rdar</string>
 </dict>
 </plist>
