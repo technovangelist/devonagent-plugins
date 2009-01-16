@@ -16,6 +16,25 @@
 	<string>http://openradar.appspot.com/search?query=_agentQuery_</string>
 	<key>EncodingUrl</key>
 	<string>UTF-8</string>
+	<key>NoTopics</key>
+	<array>
+		<string>Status</string>
+		<string>Resolved</string>
+		<string>Reproducible</string>
+		<string>Regression</string>
+		<string>Rdar</string>
+		<string>Originator</string>
+		<string>Originated</string>
+		<string>Number</string>
+		<string>Classification</string>
+		<string>Summary</string>
+		<string>Steps</string>
+		<string>Expected</string>
+		<string>Reproduce</string>
+		<string>Product</string>
+		<string>Results</string>
+		<string>Attachment</string>
+	</array>
 	<key>Operators</key>
 	<integer>0</integer>
 	<key>Start</key>
