@@ -37,12 +37,6 @@
 	</array>
 	<key>Operators</key>
 	<integer>0</integer>
-	<key>Start</key>
-	<integer>1</integer>
-	<key>TitleStart</key>
-	<string>&lt;title&gt;</string>
-	<key>TitleEnd</key>
-	<string>&lt;/title&gt;</string>
 	<key>TextStart</key>
 	<string>&lt;div id=&quot;content&quot;&gt;</string>
 	<key>TextEnd</key>
