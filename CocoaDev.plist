@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>CocoaDev</string>
+	<key>Info</key>
+	<string>CocoaDev Plugin ©2009 Stateful Labs</string>
+	<key>Description</key>
+	<string>Searches CocoaDev Wiki.</string>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.cocoadev.plugin</string>
+	<key>EngineUrl</key>
+	<string>http://www.cocoadev.com/index.pl?search=_agentQuery_</string>
+	<key>EncodingUrl</key>
+	<string>UTF-8</string>
+	<key>Operators</key>
+	<integer>0</integer>
+	<key>TextStart</key>
+	<string>&lt;td id=&quot;mainContent&quot; colspan=&quot;2&quot;&gt;</string>
+	<key>TextEnd</key>
+	<string>&lt;tr id=&quot;footerLinks&quot;&gt;</string>
+	<key>LinksStart</key>
+	<string>&lt;td id=&quot;mainContent&quot; colspan=&quot;2&quot;&gt;</string>
+	<key>LinksEnd</key>
+	<string>&lt;tr id=&quot;footerLinks&quot;&gt;</string>
+	<key>Keyword</key>
+	<string>cd</string>
+</dict>
+</plist>
