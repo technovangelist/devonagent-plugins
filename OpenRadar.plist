@@ -36,7 +36,7 @@
 		<string>Attachment</string>
 	</array>
 	<key>Operators</key>
-	<integer>0</integer>
+	<integer>59</integer>
 	<key>TextStart</key>
 	<string>&lt;div id=&quot;content&quot;&gt;</string>
 	<key>TextEnd</key>

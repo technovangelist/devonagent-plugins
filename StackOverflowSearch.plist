@@ -39,7 +39,7 @@
 		<string>*/users/*</string>
 	</array>
 	<key>Operators</key>
-	<integer>0</integer>
+	<integer>59</integer>
 	<key>OffsetPerPage</key>
 	<integer>50</integer>
 	<key>ResultsPerPage</key>

@@ -38,7 +38,7 @@
 		<string>*/questions/ask</string>
 	</array>
 	<key>Operators</key>
-	<integer>0</integer>
+	<integer>59</integer>
 	<key>ResultsPerPage</key>
 	<integer>50</integer>
 	<key>Start</key>

@@ -17,7 +17,7 @@
 	<key>EncodingUrl</key>
 	<string>UTF-8</string>
 	<key>Operators</key>
-	<integer>0</integer>
+	<integer>59</integer>
 	<key>TextStart</key>
 	<string>&lt;td id=&quot;mainContent&quot; colspan=&quot;2&quot;&gt;</string>
 	<key>TextEnd</key>
