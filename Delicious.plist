@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Delicious Social Bookmarks</string>
+	<key>Info</key>
+	<string>Delicious Social Bookmarks Plugin ©2009 Stateful Labs</string>
+	<key>Description</key>
+	<string>Searches Delicious social bookmarks.</string>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.delicious.plugin</string>
+	<key>EngineUrl</key>
+	<string>http://delicious.com/search?p=_agentQuery_&amp;context=all&amp;setcount=_agentNumber_&amp;lc=1&amp;page=_agentOffset_</string>
+	<key>EncodingUrl</key>
+	<string>UTF-8</string>
+	<key>LinksNotMatching</key>
+	<array>
+		<string>*/tag/*</string>
+		<string>*/url/*</string>
+	</array>
+	<key>Operators</key>
+	<integer>59</integer>
+	<key>ResultsPerPage</key>
+	<integer>100</integer>
+	<key>Start</key>
+	<integer>1</integer>
+	<key>Keyword</key>
+	<string>del</string>
+</dict>
+</plist>
