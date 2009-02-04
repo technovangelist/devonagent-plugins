@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>GitHub Code Search</string>
+	<key>Info</key>
+	<string>GitHub Code Search Plugin ©2009 Stateful Labs</string>
+	<key>Description</key>
+	<string>Searches GitHub public repositories for code containing search term(s).</string>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.github.plugin</string>
+	<key>EngineUrl</key>
+	<string>http://github.com/search?q=_agentQuery_&amp;type=Code&amp;start_value=_agentOffset_</string>
+	<key>EncodingUrl</key>
+	<string>UTF-8</string>
+	<key>LinksNotMatching</key>
+	<array>
+		<string>*/search?*</string>
+	</array>
+	<key>Operators</key>
+	<integer>59</integer>
+	<key>Start</key>
+	<integer>1</integer>
+	<key>TextStart</key>
+	<string>&lt;div class=&quot;highlight&quot;&gt;</string>
+	<key>TextEnd</key>
+	<string>&lt;div id=&quot;footer&quot;&gt;</string>
+	<key>LinksStart</key>
+	<string>&lt;div class=&quot;results&quot;&gt;</string>
+	<key>LinksEnd</key>
+	<string>&lt;div class=&quot;sidebar&quot;&gt;</string>
+	<key>Keyword</key>
+	<string>gh</string>
+</dict>
+</plist>
