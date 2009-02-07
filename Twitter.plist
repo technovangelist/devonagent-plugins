@@ -20,6 +20,8 @@
 	<array>
 		<string>ConversationHide</string>
 	</array>
+	<key>LinksMatching</key>
+	<string>*twitter.com/*</string>
 	<key>Operators</key>
 	<integer>59</integer>
 	<key>ResultsPerPage</key>
