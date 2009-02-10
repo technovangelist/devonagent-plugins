@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>RFC Search</string>
+	<key>Info</key>
+	<string>RFC Search Plugin ©2009 Stateful Labs</string>
+	<key>Description</key>
+	<string>Searches for RFC documents containing search term(s).</string>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.rfcsearch.plugin</string>
+	<key>EngineUrl</key>
+	<string>http://www.rfcsearch.org/rfcsearch?query=_agentQuery_&amp;start=_agentOffset_</string>
+	<key>EncodingUrl</key>
+	<string>UTF-8</string>
+	<key>Operators</key>
+	<integer>59</integer>
+	<key>Start</key>
+	<integer>1</integer>
+	<key>ResultsPerPage</key>
+	<integer>50</integer>
+	<key>TextStart</key>
+	<string>&lt;a name=&quot;page0&quot;&gt;</string>
+	<key>LinksStart</key>
+	<string>Displaying</string>
+	<key>LinksEnd</key>
+	<string>Show alternate spellings</string>
+	<key>Keyword</key>
+	<string>rfc</string>
+</dict>
+</plist>
