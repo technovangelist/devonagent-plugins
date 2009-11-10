@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Last.fm Similar Music Search</string>
+	<key>Info</key>
+	<string>Last.fm Similar Music Search Plugin ©2009 Stateful Labs</string>
+	<key>Description</key>
+	<string>Searches Last.fm for similar music.</string>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.lastfm.plugin</string>
+	<key>EngineUrl</key>
+	<string>http://www.last.fm/music/_agentQuery_/+similar?page=_agentOffset_</string>
+	<key>Start</key>
+	<integer>1</integer>
+	<key>OffsetPerPage</key>
+	<integer>1</integer>
+	<key>EncodingUrl</key>
+	<string>UTF-8</string>
+	<key>LinksMatching</key>
+		<string>*www.last.fm/music/*</string>
+	<key>LinksNotMatching</key>
+	<array>
+		<string>*setlang*</string>
+		<string>*+similar?change=language</string>
+		<string>*lastfm*</string>
+		<string>*last.fm.*</string>
+	</array>
+	<key>TextStart</key>
+	<string>&lt;div id=&quot;wikiAbstract&quot;&gt;</string>
+	<key>TextEnd</key>
+	<string>&lt;div class=&quot;wikiOptions&quot;&gt;</string>
+	<key>LinksStart</key>
+	<string>&lt;div class=&quot;pagination&quot;&gt;</string>
+	<key>LinksEnd</key>
+	<string>&lt;div id=&quot;LastFooter&quot;&gt;</string>
+	<key>Operators</key>
+	<integer>59</integer>
+	<key>Keyword</key>
+	<string>fm</string>
+</dict>
+</plist>

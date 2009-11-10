@@ -18,10 +18,10 @@
 	<string>UTF-8</string>
 	<key>LinksMatching</key>
 	<string>*/statuses/*</string>
-	<key>LinksStart</key>
-	<string>&lt;div class=&quot;wrapper&quot;&gt;</string>
-	<key>LinksEnd</key>
-	<string>&lt;span class=&quot;published&quot;&gt;</string>
+	<key>TextStart</key>
+	<string>&lt;span class=&quot;status-body&quot;&gt;</string>
+	<key>TextEnd</key>
+	<string>&lt;span class=&quot;meta entry-meta&quot;&gt;</string>
 	<key>Operators</key>
 	<integer>59</integer>
 	<key>ResultsPerPage</key>
