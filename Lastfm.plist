@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>Last.fm Similar Music Search</string>
+	<string>Last.fm Similar Artists Search</string>
 	<key>Info</key>
-	<string>Last.fm Similar Music Search Plugin ©2009 Stateful Labs</string>
+	<string>Last.fm Similar Artists Search Plugin ©2009 Stateful Labs</string>
 	<key>Description</key>
-	<string>Searches Last.fm for similar music.</string>
+	<string>Searches Last.fm for similar music artists.</string>
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Identifier</key>
