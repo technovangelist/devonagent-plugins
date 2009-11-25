@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Topsy Tweet Search</string>
+	<key>Info</key>
+	<string>Topsy Search Plugin ©2009 Stateful Labs</string>
+	<key>Description</key>
+	<string>Searches Topsy tweet-based search engine</string>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.topsy.plugin</string>
+	<key>EngineUrl</key>
+	<string>http://topsy.com/s?page=_agentOffset_&amp;q=_agentQuery_</string>
+	<key>Start</key>
+	<integer>1</integer>
+	<key>OffsetPerPage</key>
+	<integer>1</integer>
+	<key>EncodingUrl</key>
+	<string>UTF-8</string>
+	<key>LinksStart</key>
+	<string>&lt;div class=&quot;topsy-big&quot;&gt;</string>
+	<key>LinksEnd</key>
+	<string>&lt;div class=&quot;pager&quot;&gt;</string>
+	<key>Operators</key>
+	<integer>59</integer>
+	<key>Keyword</key>
+	<string>top</string>
+</dict>
+</plist>
