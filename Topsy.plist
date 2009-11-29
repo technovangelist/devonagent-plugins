@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>Name</key>
-	<string>Topsy Tweet Search</string>
+	<string>Topsy Twitter Link Trackback Search</string>
 	<key>Info</key>
-	<string>Topsy Search Plugin ©2009 Stateful Labs</string>
+	<string>Topsy Twitter Link Trackback Search Plugin ©2009 Stateful Labs</string>
 	<key>Description</key>
-	<string>Searches Topsy tweet-based search engine</string>
+	<string>Finds Twitter links and connects them back to tweets.</string>
 	<key>Version</key>
 	<string>1.0</string>
 	<key>Identifier</key>
@@ -20,10 +20,25 @@
 	<integer>1</integer>
 	<key>EncodingUrl</key>
 	<string>UTF-8</string>
+	<key>NoTopics</key>
+	<array>
+		<string>cached</string>
+		<string>retweet</string>
+		<string>tweets</string>
+		<string>days</string>
+	</array>
+	<key>LinksMatching</key>
+	<array>
+		<string>*topsy.com/tb*</string>
+	</array>
 	<key>LinksStart</key>
 	<string>&lt;div class=&quot;topsy-big&quot;&gt;</string>
 	<key>LinksEnd</key>
 	<string>&lt;div class=&quot;pager&quot;&gt;</string>
+	<key>TextStart</key>
+	<string>&lt;div class=&quot;tb-widget-large&quot;&gt;</string>
+	<key>TextEnd</key>
+	<string>&lt;div class=&quot;wf-foot&quot;&gt;</string>
 	<key>Operators</key>
 	<integer>59</integer>
 	<key>Keyword</key>
