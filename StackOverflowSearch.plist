@@ -58,7 +58,7 @@
 	<string>&lt;div class=&quot;post-text&quot;&gt;</string>
 	<key>LinksEnd</key>
 	<string>&lt;div class=&quot;post-menu&quot;&gt;</string>
-	<!-- <key>Keyword</key>
-	<string>so</string> -->
+	<key>Keyword</key>
+	<string>sos</string>
 </dict>
 </plist>
