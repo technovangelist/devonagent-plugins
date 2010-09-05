@@ -5,7 +5,7 @@
 	<key>Name</key>
 	<string>Last.fm Similar Artists Search</string>
 	<key>Info</key>
-	<string>Last.fm Similar Artists Search Plugin ©2009 Stateful Labs</string>
+	<string>Last.fm Similar Artists Search Plugin ©2009-2010 Stateful Labs</string>
 	<key>Description</key>
 	<string>Searches Last.fm for similar music artists.</string>
 	<key>Version</key>
@@ -29,14 +29,12 @@
 		<string>*lastfm*</string>
 		<string>*last.fm.*</string>
 	</array>
+	<key>UseListingResults</key>
+	<true/>
 	<key>TextStart</key>
-	<string>&lt;div id=&quot;wikiAbstract&quot;&gt;</string>
+	<string>class=&quot;artist&quot;&gt;&lt;span</string>
 	<key>TextEnd</key>
-	<string>&lt;div class=&quot;wikiOptions&quot;&gt;</string>
-	<key>LinksStart</key>
-	<string>&lt;div class=&quot;pagination&quot;&gt;</string>
-	<key>LinksEnd</key>
-	<string>&lt;div id=&quot;LastFooter&quot;&gt;</string>
+	<string>&lt;span class=&quot;moduleOptions moduleOptionsLeft&quot;&gt;</string>
 	<key>Operators</key>
 	<integer>59</integer>
 	<key>Keyword</key>
