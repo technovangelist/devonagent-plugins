@@ -32,7 +32,7 @@
 	<key>UseListingResults</key>
 	<true/>
 	<key>TextStart</key>
-	<string>class=&quot;artist&quot;&gt;&lt;span</string>
+	<string>&lt;span class=&quot;artist&quot;&gt;&lt;span</string>
 	<key>TextEnd</key>
 	<string>&lt;span class=&quot;moduleOptions moduleOptionsLeft&quot;&gt;</string>
 	<key>Operators</key>
