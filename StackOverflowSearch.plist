@@ -13,9 +13,9 @@
 	<key>Identifier</key>
 	<string>net.stateful.devonagent.stackoverflow.plugin</string>
 	<key>EngineUrl</key>
-	<string>http://stackoverflow.com/search?q=_agentQuery_</string>
+	<string>http://stackoverflow.com/search?q=_agentQuery_&amp;tab=relevance</string>
 	<key>EngineNextUrl</key>
-	<string>http://stackoverflow.com/search?q=_agentQuery_&amp;page=_agentOffset_&amp;sort=relevance</string>
+	<string>http://stackoverflow.com/search?q=_agentQuery_&amp;page=_agentOffset_&amp;tab=relevance</string>
 	<key>EncodingUrl</key>
 	<string>UTF-8</string>
 	<key>NoTopics</key>

@@ -13,9 +13,9 @@
 	<key>Identifier</key>
 	<string>net.stateful.devonagent.stackoverflow.tags.plugin</string>
 	<key>EngineUrl</key>
-	<string>http://stackoverflow.com/questions/tagged/_agentQuery_</string>
+	<string>http://stackoverflow.com/questions/tagged/_agentQuery_?sort=votes&amp;pagesize=_agentNumber_</string>
 	<key>EngineNextUrl</key>
-	<string>http://stackoverflow.com/questions/tagged?tagnames=_agentQuery_&amp;page=_agentOffset_&amp;sort=newest&amp;pagesize=_agentNumber_</string>
+	<string>http://stackoverflow.com/questions/tagged/_agentQuery_?page=_agentOffset_&amp;sort=votes&amp;pagesize=_agentNumber_</string>
 	<key>EncodingUrl</key>
 	<string>UTF-8</string>
 	<key>NoTopics</key>
