@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>DuckDuckGo Search</string>
+	<key>Info</key>
+	<string>DuckDuckGo Search Plugin ©2011 Stateful Labs</string>
+	<key>Description</key>
+	<string>Searches DuckDuckGo with provided search term(s).</string>
+	<key>Version</key>
+	<string>1.0</string>
+	<key>Identifier</key>
+	<string>net.stateful.devonagent.duckduckgo.plugin</string>
+	<key>EngineUrl</key>
+	<string>http://duckduckgo.com/html/?q=_agentQuery_&amp;l=en&amp;p=1&amp;s=0&amp;dc=-1&amp;api=d.js</string>
+	<key>EngineNextUrl</key>
+	<string>http://duckduckgo.com/html/?q=_agentQuery_&amp;l=en&amp;p=1&amp;s=_agentOffset_&amp;o=json&amp;api=d.js</string>
+	<key>EncodingUrl</key>
+	<string>UTF-8</string>
+	<key>Operators</key>
+	<integer>59</integer>
+	<key>Start</key>
+	<integer>10</integer>
+	<key>Keyword</key>
+	<string>ddg</string>
+</dict>
+</plist>
