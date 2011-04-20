@@ -27,9 +27,9 @@
 		<string>tweets</string>
 		<string>days</string>
 	</array>
-	<key>LinksMatching</key>
+	<key>LinksNotMatching</key>
 	<array>
-		<string>*topsy.com/tb*</string>
+		<string>*topsy.com/s/*</string>
 	</array>
 	<key>LinksStart</key>
 	<string>&lt;div class=&quot;topsy-big&quot;&gt;</string>
