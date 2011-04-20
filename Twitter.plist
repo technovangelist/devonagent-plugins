@@ -5,29 +5,27 @@
 	<key>Name</key>
 	<string>Twitter</string>
 	<key>Info</key>
-	<string>Twitter Plugin ©2009 Stateful Labs</string>
+	<string>Twitter Plugin ©2009-2011 Stateful Labs</string>
 	<key>Description</key>
 	<string>Searches Twitter.</string>
 	<key>Version</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>Identifier</key>
 	<string>net.stateful.devonagent.twitter.plugin</string>
 	<key>EngineUrl</key>
-	<string>http://search.twitter.com/search?page=_agentOffset_&amp;q=_agentQuery_+since%3A2008-01-01&amp;rpp=_agentNumber_</string>
+	<string>http://search.twitter.com/search?q=_agentQuery_&amp;page=_agentOffset_&amp;rpp=_agentNumber_</string>
 	<key>EncodingUrl</key>
 	<string>UTF-8</string>
-	<key>LinksMatching</key>
-	<string>*/statuses/*</string>
 	<key>TextStart</key>
-	<string>&lt;span class=&quot;status-body&quot;&gt;</string>
-	<key>TextEnd</key>
-	<string>&lt;span class=&quot;meta entry-meta&quot;&gt;</string>
+	<string>&lt;div class=&quot;msg&quot;&gt;</string>
 	<key>Operators</key>
 	<integer>59</integer>
 	<key>ResultsPerPage</key>
 	<integer>50</integer>
 	<key>Start</key>
 	<integer>1</integer>
+	<key>FollowLinks</key>
+	<true/>
 	<key>Keyword</key>
 	<string>tw</string>
 </dict>
