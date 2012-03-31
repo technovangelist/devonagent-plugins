@@ -30,6 +30,8 @@
 	<string>&lt;div id=&quot;footer&quot;&gt;</string>
 	<key>LinksStart</key>
 	<string>&lt;div class=&quot;results&quot;&gt;</string>
+	<key>TitleEnd</key>
+	<string> at </string>
 	<key>LinksEnd</key>
 	<string>&lt;div class=&quot;sidebar&quot;&gt;</string>
 	<key>Keyword</key>
